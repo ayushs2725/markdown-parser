@@ -7,4 +7,10 @@ public class MarkdownParseTest {
         assertEquals(3, 1 + 1);
     }
 
+    @Test
+    public void infinite()
+    {
+        assertEquals("", MarkdownParse.getLinks("test-file7"));
+    }
+
 }
